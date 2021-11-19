@@ -59,7 +59,7 @@ done < /tmp/DirPathCreateToCategorize.txt
 ImportDocument()
 {
     FilePath="$1"
-    file_name=$(echo "$FilePath" |awk -F '/' '{print $NF}')
+    file_name=$(echo "$FilePath" |awk -F '/' '{print $NF}' |sed 's:.note.docx.html::g')
     CategoriesID="$2"
     echo "###### ImportDocument: FilePath: $1   CategoriesID: $2 ######"
     \cp -fa "$FilePath" /tmp/temp.html
