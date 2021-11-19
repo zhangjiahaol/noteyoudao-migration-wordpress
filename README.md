@@ -42,6 +42,8 @@ done
 ### 会将文件夹层级关系转换为WP分类层级，html通过WP API导入到文章
 ### 将wordpress_batch_import.sh脚本文件放到需要导入的html根目录顶层下，wordpress会根据脚本的所在目录下导入文章与分类
 ```
+cp -a ./wordpress_batch_import.sh ./notes/
+cd ./notes/
 chmod +x wordpress_batch_import.sh
 ./wordpress_batch_import.sh
 ```
