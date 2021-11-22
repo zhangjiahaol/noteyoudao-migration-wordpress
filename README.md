@@ -1,6 +1,6 @@
 # noteyoudao-migration-wordpress
 
-# 因为有道笔记开始收费了而且更新新版本之后有很多BUG与诸多使用上不爽的地方
+# 因为有道笔记更新新版本之后有很多BUG与诸多使用上不爽的地方
 
 # 本项目将有道笔记上的所有.note类型笔记全部迁移到wordpress中
 
