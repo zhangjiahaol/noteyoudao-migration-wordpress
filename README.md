@@ -44,7 +44,7 @@ done
 cp -a ./wordpress_batch_import.sh ./notes/
 cd ./notes/
 chmod +x wordpress_batch_import.sh
-./wordpress_batch_import.sh
+./wordpress_batch_import.sh > ./wordpress_batch_import.log
 ```
 
 
