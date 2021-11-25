@@ -8,7 +8,7 @@
 ```
 1、CentOS Linux release 7
 2、python3
-3、yum install jq -y
+3、yum install -y epel-release && yum install -y jq
 4、在wordpress安装Application Passwords插件,并且替换wordpress_batch_import.sh脚本中的username、password变量token值
 ```
 
