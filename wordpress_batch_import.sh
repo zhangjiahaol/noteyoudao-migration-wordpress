@@ -12,7 +12,7 @@
 ###执行此脚本开始批量导入./wordpress_batch_import.sh
 
 
-domain='http://jiahao.love'
+domain='http://127.0.0.1'
 username='jiahao'
 password='2QuBOcDVkvCRdNJ83RqtmJXr'
 
