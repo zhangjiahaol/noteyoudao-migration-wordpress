@@ -70,6 +70,8 @@ ImportDocument()
         sed -i 's#"#\\"#g' /tmp/temp.html
         sed -i "1i{\"title\": \"${file_name}\",\"content\": \"" /tmp/temp.html
         sed -i '$a","status": "publish","categories":['${CategoriesID}']}' /tmp/temp.html
+        sed -i 's#<p>#<pre>#g' /tmp/temp.html
+        sed -i 's#</p>#</pre>#g' /tmp/temp.html
         curl -i -o /dev/null -s -w %{http_code} ${domain}/wp-json/wp/v2/posts -L -X POST \
             -H "Content-Type: application/json"  \
             --user "${username}:${password}" \
