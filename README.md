@@ -15,6 +15,8 @@
 
 ## 1、执行获取有道笔记上的所有笔记，格式为docx
 ```
+git clone https://github.com/zhangjiahaol/noteyoudao-migration-wordpress.git
+cd noteyoudao-migration-wordpress/
 python getYoudaoAllNotes.py account*** password*** ./notes docx 
 ```
 
