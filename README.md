@@ -6,7 +6,7 @@
 
 # 准备环境： 
 ```
-1、CentOS Linux release 7 + python2.7 + python3.6
+1、CentOS Linux release 7 + python2 + python3
 2、yum install -y epel-release && yum install -y jq && yum install -y python36 && pip3.6 install PyDocX
 3、在wordpress安装Application Passwords插件,并且替换wordpress_batch_import.sh脚本中的username、password变量token值
 ```
